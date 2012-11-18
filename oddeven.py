@@ -1,8 +1,7 @@
+def isEven(n):
+	return True if n%2 ==0 else False
+
 x =  int(input("Enter Number: "))
 
-print "Even" if (x%2==0) else print "Odd"
+print "Even" if isEven(x) else  "Odd"
 
-if (x % 2 == 0):
-	print "Even"
-else:
-	print "Odd"
